@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ticket Booking</title>
+
+<style>
+body{
+    font-family: Arial;
+    background-color:#f2f2f2;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+    margin-top:50px;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+}
+
+h1{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    background-color:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>Ticket Booking</h1>
+
+<form>
+<label>Name</label>
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Destination</label>
+<select>
+<option>Chennai</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+</select>
+
+<label>Date of Travel</label>
+<input type="date">
+
+<label>Number of Tickets</label>
+<input type="number">
+
+<button type="submit">Book Ticket</button>
+</form>
+
+</div>
+
+</body>
+</html>
